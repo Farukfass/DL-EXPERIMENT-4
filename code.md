@@ -1,3 +1,4 @@
+code:
 import numpy as np
 from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.utils import pad_sequences, to_categorical
@@ -46,5 +47,6 @@ print(f"{'Input Text':40s} {'Predicted Word':15s} {'Correct (Y/N)'}")
 for text, true_word in test_cases:
     pred_word, result = predict_next_word(text, true_word)
     print(f"{text:40s} {pred_word:15s} {result}")
+    output:
     <img width="548" height="340" alt="image" src="https://github.com/user-attachments/assets/f32b0d71-f476-4bc4-bbad-4b1a8f9a96ec" />
    <img width="633" height="324" alt="image (1)" src="https://github.com/user-attachments/assets/dba9c074-8902-4144-8b20-ee917f8c7880" />
